@@ -1,0 +1,29 @@
+1) Qual significado? Onde devemos aplicar?
+
+MVC significa Model View Controller. Ele é um padrão de projeto que divide as responsabilidades do sistema em 3, devemos aplicar ele em projetos que tenham alguma iteração com o usuário, por exemplo:
+Model = Para definir os modelos das classes
+View = Visualizações a serem exibidas
+Controller = Intermediar a relação entre o Model e o View.
+
+2) Qual motivo de tantas formas existentes e contraditórias?
+
+Como a programação é algo 'artesanal', e com a vasta quantidade de frameworks mvc que sugiram no mercado, alguns não encaixavam nos moldes da definição original, criando assim novas 'variações' conforme cada percepção.
+
+3) Aplicamos corretamente? Justifique.
+Acredito que sim, não estava na aula, mas na análise do projeto garante que o objetivo do MVC é cumprido, sendo o objetivo principal separar os conceitos.
+
+4) O que poderia ser alterado? Qual arquitetura poderia ser complementar?
+A arquitetura hexagonal que iremos aprender em sequência poderia ser utilizada.
+
+5)– Faça um compilado dos tópicos estudados até hoje relacionando-os ao  objetivo principal da disciplina – Desenvolvimento Avançado de Software.
+-Fundamentos da programação
+-Funções
+-Parâmetros posicionais,nomeados,obrigatórios
+-Principios do código  (acoplamento, coesão legibilidade)
+-Função anônima, arrow function
+-Debugar código
+-Tratamento de erros
+-Testes dos mais variados tipos
+-MVC
+
+Todos esses principais tópicos foram abordados até então, e contribui com o objetivo principal da disciplina, que é ter o foco nos fundamentos e qualidade do código que está sendo desenvolvido.

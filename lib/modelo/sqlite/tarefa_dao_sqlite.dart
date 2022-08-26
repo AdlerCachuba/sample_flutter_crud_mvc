@@ -3,6 +3,10 @@ import 'package:flutter_crud_mvc/modelo/tarefa.dart';
 import 'package:flutter_crud_mvc/modelo/sqlite/conexao.dart';
 import 'package:flutter_crud_mvc/modelo/tarefa_dao.dart';
 import 'package:sqflite/sqflite.dart';
+// Interface Segregation Principle
+// Essa classe é responsável por implementar todos os métodos que a interface (TarefaDAO) define.
+// A interface define todos os métodos de acesso e persistência dos dados, já essa classe é responsável por fazer o acesso e a persistência dos dados no SQLITE.
+// TODOS os métodos de acesso a dados sempre serão necessários para essa classe/responsabilidade.
 
 class TarefaDAOSQLite implements TarefaDAO{
   @override

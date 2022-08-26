@@ -11,7 +11,9 @@ class TarefaLista extends StatelessWidget{
     return Scaffold(   
       appBar: AppBar(
         title: const Text('Lista Tarefas'),
-        actions: [ 
+        actions: [
+          // Liskov substitution principle
+          // Aqui é passado por parametro no title, um objeto da classe Text. A classe appBar espera receber um widget nesse parâmetro, como a classe Text extende de Widget, então é aceita.
           IconButton(
             icon: const Icon(Icons.add),
             onPressed: () => Navigator.pushNamed(context, '/tarefaForm').then((value) => controle.listar()) )
